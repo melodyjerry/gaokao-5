@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="shixun.gaokao.pojo.Profession" table="t_profession">
+  <id name="proCode">
+   <generator class="assigned" />
+  </id>
+  <property name="proName"/>
+  <property name="proIntroductionPage"/>
+  <property name="proHeat"/>
+ </class>
+</hibernate-mapping>

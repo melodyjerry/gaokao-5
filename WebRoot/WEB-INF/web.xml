@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>shixun.gaokao.action.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CollegeServlet</servlet-name>
+    <servlet-class>shixun.gaokao.action.CollegeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NationalLineServlet</servlet-name>
+    <servlet-class>shixun.gaokao.action.NationalLineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProRankingServlet</servlet-name>
+    <servlet-class>shixun.gaokao.action.ProRankingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectCollegeByScoreServlet</servlet-name>
+    <servlet-class>shixun.gaokao.action.SelectCollegeByScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>shixun.gaokao.action.Test</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectProByScoreServlet</servlet-name>
+    <servlet-class>shixun.gaokao.action.SelectProByScoreServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/servlet/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollegeServlet</servlet-name>
+    <url-pattern>/servlet/CollegeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NationalLineServlet</servlet-name>
+    <url-pattern>/servlet/NationalLineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProRankingServlet</servlet-name>
+    <url-pattern>/servlet/ProRankingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectCollegeByScoreServlet</servlet-name>
+    <url-pattern>/servlet/SelectCollegeByScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/servlet/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectProByScoreServlet</servlet-name>
+    <url-pattern>/servlet/SelectProByScoreServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

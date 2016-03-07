@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="shixun.gaokao.pojo.College" table="t_college">
+  <id name="no">
+   <generator class="assigned" />
+  </id>
+  <property name="name"/>
+  <property name="area"/>
+  <property name="type"/>
+  <property name="level"/>
+  <property name="_985"/>
+  <property name="_211"/>
+  <property name="introductionPage"/>
+ </class>
+</hibernate-mapping>

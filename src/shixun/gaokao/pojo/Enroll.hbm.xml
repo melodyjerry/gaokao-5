@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="shixun.gaokao.pojo.Enroll" table="t_enroll">
+  <id name="id">
+   <generator class="increment" />
+  </id>
+  <property name="collegeCode"/>
+  <property name="proCode"/>
+  <property name="area"/>
+  <property name="year"/>
+  <property name="batch"/>
+  <property name="maxEnrollScore"/>
+  <property name="avgEnrollScore"/>
+  <property name="minEnrollScore"/>
+  <property name="enrollStuNum"/>
+  <property name="acceptLiberalStu"/>
+  <property name="acceptSciencesStu"/>
+ </class>
+</hibernate-mapping>
